@@ -1,4 +1,6 @@
-# PhotoEditor.Maui
+G9TM Company
+
+# G9.PhotoEditor.Maui
 
 A cross-platform .NET MAUI photo editor control with crop, freehand draw, arrows, and text overlays. Built on SkiaSharp with an optional full UI shell (`PhotoEditorView`) or a bare canvas (`SkiaPhotoEditorView`).
 
@@ -31,7 +33,7 @@ https://github.com/user-attachments/assets/5caaea8b-5f01-46ed-a071-31c893c015ec
 ## Installation
 
 ```bash
-dotnet add package PhotoEditor.Maui
+dotnet add package G9.PhotoEditor.Maui
 ```
 
 ## Setup
@@ -95,7 +97,7 @@ builder.UsePhotoEditor(options =>
 });
 ```
 
-Register the font in your app's `MauiProgram.cs` (`fonts.AddFont("MaterialIcons-Regular.ttf", "MaterialIcons")`). See `samples/PhotoEditor.Maui.Sample/Themes/MaterialIconsToolbar.cs` for a full glyph set.
+Register the font in your app's `MauiProgram.cs` (`fonts.AddFont("MaterialIcons-Regular.ttf", "MaterialIcons")`). See `samples/G9.PhotoEditor.Maui.Sample/Themes/MaterialIconsToolbar.cs` for a full glyph set.
 
 Or per control in XAML/code via the `Options` property on `PhotoEditorView` or `SkiaPhotoEditorView`.
 
@@ -112,7 +114,7 @@ Color palette swatches in the built-in UI use a neutral gray ring and shadow so 
 
 ### Sample app
 
-The included sample (`samples/PhotoEditor.Maui.Sample`) launches from a home page with three options under `Pages/`:
+The included sample (`samples/G9.PhotoEditor.Maui.Sample`) launches from a home page with three options under `Pages/`:
 
 - **Built-in UI** — `Pages/BuiltInEditorPage` (default text/Unicode toolbar, app theme colors)
 - **Themed default UI** — `Pages/ThemedDefaultEditorPage` (built-in UI customized via `PhotoEditorThemeOptions`: colors, rounded buttons, Material Icons toolbar)
