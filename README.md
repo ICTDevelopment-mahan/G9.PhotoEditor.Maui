@@ -16,7 +16,7 @@ A cross-platform .NET MAUI photo editor control with crop, freehand draw, arrows
 
 ### Built-in UI (default)
 
-![Built-in UI demo](https://github.com/user-attachments/assets/5caaea8b-5f01-46ed-a071-31c893c015ec)
+https://github.com/user-attachments/assets/5caaea8b-5f01-46ed-a071-31c893c015ec
 
 ### Themed default UI
 
